@@ -1,0 +1,33 @@
+{
+  "name": "weather-forecast-redux",
+  "version": "1.0.0",
+  "description": "\"bootstrap app\"",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.9.1",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-redux": "^4.0.6",
+    "react-router": "^2.0.0-rc5",
+    "react-tap-event-plugin": "^0.2.1",
+    "redux": "^3.0.5",
+    "redux-promise": "^0.5.3"
+  },
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-plugin-react-transform": "^2.0.0-beta1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "livereactload": "^2.1.0",
+    "react-proxy": "^1.1.2",
+    "reactify": "^1.1.1",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "watch": "watchify ./src/app/index.jsx -t babelify -p livereactload -o static/bundle.js"
+  },
+  "author": "At reat"
+}
