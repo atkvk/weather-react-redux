@@ -6,6 +6,7 @@ export default class App extends React.Component {
     render() {
         return (
             <div>
+                <h1>Weather forecast 5 days</h1>
                 <SearchBar />
                 <WeatherList />
             </div>
